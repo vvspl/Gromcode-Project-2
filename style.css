@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #141b1c;
+}
+
+.price-card {
+  height: 770px;
+  width: 380px;
+  background-color: #334247;
+  margin: 132px 18px 132px 132px;
+  box-shadow: 0 6px 0 rgba(0, 0, 0, 0.0875);
+}
+.price-card__title_major {
+  font-size: 25px;
+  font-weight: 700;
+  color: #FFF;
+  text-align: center;
+}
+.price-card__title_minor {
+  font-size: 12px;
+  font-weight: 300;
+  color: #FFF;
+  text-align: center;
+}
+.price-card__price {
+  height: 105px;
+  width: 100%;
+  background-color: #5BB189;
+  text-align: center;
+  font-size: 55px;
+  font-weight: 700;
+  color: #FFF;
+}
+.price-card__description {
+  font-size: 15px;
+  color: #FFF;
+  text-align: center;
+}
+.price-card__option-list {
+  height: 50px;
+  width: 100%;
+}
+.price-card__option-list:nth-child(even) {
+  background-color: #2A3438;
+}
+.price-card__option-list_text {
+  font-size: 15px;
+  color: #FFF;
+}
+.price-card__order-btn {
+  height: 40px;
+  width: 155px;
+  border-radius: 20px;
+  background-color: #5BB189;
+  font-size: 17px;
+  font-weight: 400;
+  color: #FFF;
+  text-transform: uppercase;
+  border: none;
+}
+
+/*# sourceMappingURL=style.css.map */
