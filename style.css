@@ -4,12 +4,22 @@
 }
 
 body {
+  height: 100vh;
   background-color: #141b1c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.container {
   display: flex;
   flex-grow: 0;
   flex-shrink: 0;
   flex-wrap: nowrap;
-  overflow: scroll;
+  max-width: 1176px;
+  margin: auto;
 }
 
 .price-card {
@@ -17,11 +27,7 @@ body {
   height: 770px;
   width: 380px;
   background-color: #334247;
-  margin: 100px 9px 100px auto;
   box-shadow: 0 6px 0 rgba(0, 0, 0, 0.0875);
-}
-.price-card:nth-child(3) {
-  margin-right: auto;
 }
 .price-card__sign {
   position: absolute;
